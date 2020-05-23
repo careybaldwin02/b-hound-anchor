@@ -21,7 +21,6 @@ h4 {
 }
 
 .header-text{
-
   width: 100%;
   padding: 0 20px 20px 20px;
   display: flex;
@@ -29,6 +28,10 @@ h4 {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.header-text h1{
+  padding: 20px 4% 0px 4%;
 }
 
 .main{
