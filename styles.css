@@ -14,7 +14,7 @@ h4 {
 a {
   text-decoration: none;
   font-weight: 800;
-  color: #289A3A;
+  color: rgb(77, 146, 86);
 }
 
 .top {
@@ -27,8 +27,8 @@ a {
 }
 
 .header-text{
-  width: 50%;
-  padding: 0 20px 20px 20px;
+  width: 100%;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,13 +36,65 @@ a {
   text-align: center;
 }
 
-.header-text h1{
-  padding: 20px 4% 0px 4%;
+.header-text ul{
+  text-align: left;
+  padding-left: 20%;
+  list-style: disc;
 }
 
-.header-text p {
-  text-align: left;
+#summaryBtn {
+  padding: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  border-radius: 10px;
+  background: rgb(240, 243, 243);
+  border: 1px solid #acb5b5;
+  box-shadow: 0 1px 2px 0 #acb5b5;
 }
+
+#summaryBtn:hover {
+  background-color: rgb(77, 146, 86); /* Green */
+  color: white;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 .main{
   width: 100%;
