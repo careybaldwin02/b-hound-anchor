@@ -42,7 +42,8 @@ a {
   list-style: disc;
 }
 
-#summaryBtn {
+button {
+  margin-bottom: 10px;
   padding: 15px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1rem;
@@ -52,7 +53,7 @@ a {
   box-shadow: 0 1px 2px 0 #acb5b5;
 }
 
-#summaryBtn:hover {
+button:hover {
   background-color: rgb(77, 146, 86); /* Green */
   color: white;
 }
@@ -74,9 +75,10 @@ a {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 10% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
+  border-radius: 10px;
   width: 50%; /* Could be more or less, depending on screen size */
 }
 

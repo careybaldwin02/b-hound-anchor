@@ -14,18 +14,74 @@
         <div class="header-text">
           <h1>B-HOUND</h1>
           <h3>
-            a patented system for:
-            <ul class="top-list">
-              <li>Covid tracing and avoidance</li>
-              <li>riot suppression</li>
-              <li>general security</li>
-            </ul>
-            through physical surveillance
+            A patented physical surveillance system with applications for:
           </h3>
-          <!-- <h2>A Trail Tracker for the 21st Century</h2> -->
+          <div class="top-buttons">
+            <button id="covidBtn">Covid tracing and avoidance</button>
+            <!-- The Modal -->
+            <div id="covidModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Covid Description</p>
+              </div>
+            </div>
+            <!-- Modal Script -->
+            <script src="c-modal.js"></script>
 
+            <button id="policeBtn">Police Accountability</button>
+            <!-- The Modal -->
+            <div id="policeModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p class="description">
+                  An answer for the defund the police movement that streamlines
+                  police services with low-cost technology capable of performing
+                  the job more safely, efficiently and transparently. A low-cost
+                  software-driven manpower multiplier for police. Just as
+                  technology has lowered the costs for other industries by
+                  replacing tasks performed physically by human beings with more
+                  efficient machines, it can automate surveillance of public
+                  venues as well as police responses to reports of criminal
+                  activity for both uses against criminal suspects and
+                  questionable police behavior, allowing police to avoid
+                  interactions with criminal suspects in conditions that could
+                  endanger police or civilians, while simultaneously providing
+                  public transparency for incidents of police misconduct and
+                  police reporting of crime statistics. Additionally, serving as
+                  a bridge between police and the anticipated influx of social
+                  workers that allows the two interrelated services to better
+                  coordinate their responses to reports of criminal activity.
+                </p>
+              </div>
+            </div>
+            <!-- Modal Script -->
+            <script src="p-modal.js"></script>
+
+            <button id="securityBtn">Personal and Home Security</button>
+            <!-- The Modal -->
+            <div id="securityModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Security Description</p>
+              </div>
+            </div>
+            <!-- Modal Script -->
+            <script src="s-modal.js"></script>
+
+
+          </div>
+          <!-- <h2>A Trail Tracker for the 21st Century</h2> -->
+          <h3>
+            Developed by
+            <a href="https://www.greenlineanalytics.com"
+              >Green Line Analytics, LLC</a
+            >
+          </h3>
           <!-- Trigger/Open The Modal -->
-          <button id="summaryBtn">Summary</button>
+          <button id="summaryBtn">Detailed Summary</button>
 
           <!-- The Modal -->
           <div id="summaryModal" class="modal">
@@ -56,7 +112,7 @@
               </p>
             </div>
           </div>
-
+          <!-- Modal Script -->
           <script src="modal.js"></script>
         </div>
       </div>
