@@ -24,11 +24,19 @@ a {
 
 .top {
   border-bottom: 1px solid #acb5b5;
-  background: #e3ebeb;
+  /* background: #e3ebeb; */
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+}
+
+.dog{
+  padding-left: 2%;
+}
+
+.targets{
+  padding-right: 2%;
 }
 
 .header-text{
@@ -173,7 +181,6 @@ button:hover {
   cursor: pointer;
 }
 
-
 .main{
   width: 100%;
   display: flex;
@@ -182,19 +189,19 @@ button:hover {
   flex-wrap: wrap;
 }
 
-.logo{
-  width: 48%;
-  padding: 10px 0 10px 2%;
-  text-align: center;
-}
-
 .bc{
-  width: 48%;
+  width: 100%;
   margin: 10px 0;
   padding-right: 2%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.logo{
+  width: 100%;
+  padding: 10px 2% 10px 0;
+  text-align: right;
 }
 
 .middle {
