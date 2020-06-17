@@ -4,6 +4,11 @@
   font-family: 'Source Code Pro', monospace;
 }
 
+h1{
+  font-size: 3rem;
+  color: rgb(66, 71, 66);
+}
+
 h4 {
   font-weight: bold;
   font-size: 1.4rem;
@@ -88,17 +93,6 @@ a {
 }
 }
 
-button {
-  margin-bottom: 10px;
-  padding: 15px;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 1rem;
-  border-radius: 10px;
-  background: rgb(240, 243, 243);
-  border: 1px solid #acb5b5;
-  box-shadow: 0 1px 2px 0 #acb5b5;
-}
-
 button:hover {
   background-color: rgb(77, 146, 86); /* Green */
   color: white;
@@ -108,7 +102,7 @@ button:hover {
   margin-bottom: 10px;
   padding: 15px;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1rem;
+  font-size: 1.2rem;
   border-radius: 10px;
   background: rgb(240, 243, 243);
   border: 1px solid #acb5b5;
@@ -120,9 +114,23 @@ button:hover {
   color: white;
 }
 
+.mid-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .mid-button {
-  width: 8rem;
-  height: 8rem;
+  width: 12rem;
+  height: 12rem;
+  font-size: 1.4rem;
+  margin: 10px;
+  padding: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  background: rgb(240, 243, 243);
+  border: 1px solid #acb5b5;
+  border-radius: 10px;
+  box-shadow: 0 1px 2px 0 #acb5b5;
 }
 
 
@@ -175,14 +183,15 @@ button:hover {
 }
 
 .logo{
-  width: 300px;
-  padding: 20px 2%;
+  width: 48%;
+  padding: 10px 0 10px 2%;
   text-align: center;
 }
 
 .bc{
-  width: 300px;
-  padding: 20px 2%;
+  width: 48%;
+  margin: 10px 0;
+  padding-right: 2%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
