@@ -1,7 +1,12 @@
+body{
+  margin: 0;
+}
+
 .container {
   display: block;
   /* font-family: 'Roboto Mono', monospace; */
-  font-family: 'Source Code Pro', monospace;
+  /* font-family: 'Source Code Pro', monospace; */
+  font-family: 'Raleway', sans-serif;
 }
 
 h1{
@@ -9,11 +14,13 @@ h1{
   color: rgb(66, 71, 66);
 }
 
-h4 {
-  font-weight: bold;
-  font-size: 1.4rem;
-  padding: 0;
-  margin: 0;
+h2 {
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
 }
 
 a {
@@ -24,7 +31,7 @@ a {
 
 .top {
   border-bottom: 1px solid #acb5b5;
-  /* background: #e3ebeb; */
+  background: #e3ebeb;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -109,7 +116,7 @@ button:hover {
 #summaryBtn {
   margin-bottom: 10px;
   padding: 15px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.2rem;
   border-radius: 10px;
   background: rgb(240, 243, 243);
@@ -126,15 +133,16 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 20px;
 }
 
 .mid-button {
   width: 12rem;
   height: 12rem;
   font-size: 1.4rem;
-  margin: 10px;
+  margin: 20px 10px;
   padding: 15px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Raleway', sans-serif;
   background: rgb(240, 243, 243);
   border: 1px solid #acb5b5;
   border-radius: 10px;
@@ -198,12 +206,6 @@ button:hover {
   justify-content: space-around;
 }
 
-.logo{
-  width: 100%;
-  padding: 10px 2% 10px 0;
-  text-align: right;
-}
-
 .middle {
   border: 1px solid #acb5b5;
   display: flex;
@@ -212,18 +214,18 @@ button:hover {
   flex-wrap: wrap;
 }
 
-.proposal {
-  padding: 0 5%;
-  font-size: 2.5rem;
+.logo{
+  padding: 10px 2% 10px 0;
 }
 
-.bracket {
-  font-size: 5rem;
-  font-weight: 100;
+.proposal {
+  padding: 0 5%;
+  font-size: 3rem;
 }
 
 .items {
   padding: 20px 5% 20px 5%;
+  font-size: 1.2rem;
 }
 
 ul{
