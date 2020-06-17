@@ -5,7 +5,7 @@ var pModal = document.getElementById("policeModal");
 var pBtn = document.getElementById("policeBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[1];
+var span = document.getElementsByClassName("close")[2];
 
 // When the user clicks on the button, open the modal
 pBtn.onclick = function() {
