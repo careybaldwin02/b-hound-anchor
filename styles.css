@@ -216,23 +216,28 @@ button:hover {
 }
 
 .logo-prop{
+  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-
+  flex-wrap: wrap;
 }
 
 .proposal {
-  margin: 0 5%;
+  padding: 20px 30px 0 30px;
+
+}
+
+.proposal h1{
   font-size: 3rem;
 }
 
 .logo{
-  margin: 0 5%;
+  padding: 20px 30px 0 30px;
 }
 
 .items {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -240,7 +245,7 @@ button:hover {
 }
 
 .ref{
-  margin: 10px 2%;
+  margin: 0 30px;
 }
 
 ul{
@@ -270,9 +275,13 @@ li {
   align-items: center;
 }
 
+.footer-text h4{
+  margin:10px 0 0 0;
+}
+
 .footer-text p{
-  font-size: .8rem;
   text-align: center;
+  font-size: .8rem;
 }
 
 /* Slideshow Styles */
