@@ -167,11 +167,11 @@ button:hover {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 8% auto; /* 8% from the top and centered */
+  margin: 10% auto; /* 8% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
   border-radius: 10px;
-  width: 50%; /* Could be more or less, depending on screen size */
+  width: 60%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
@@ -209,23 +209,38 @@ button:hover {
 .middle {
   border: 1px solid #acb5b5;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.logo{
-  padding: 10px 2% 10px 0;
+.logo-prop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .proposal {
-  padding: 0 5%;
+  margin: 0 5%;
   font-size: 3rem;
 }
 
+.logo{
+  margin: 0 5%;
+}
+
 .items {
-  padding: 20px 5% 20px 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   font-size: 1.2rem;
+}
+
+.ref{
+  margin: 10px 2%;
 }
 
 ul{
@@ -248,7 +263,7 @@ li {
 }
 
 .footer-text{
-  padding: 20px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
