@@ -44,11 +44,15 @@ a {
   justify-content: center;
 }
 
+.header-text h2{
+  font-size: 2.5rem;
+  width: 80%;
+}
 
 .summary-section{
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .dt{
@@ -61,7 +65,7 @@ a {
  }
 
 .gl{
-  padding-right: 5%; 
+  padding: 0 5% 0 50px; 
   display: flex;
   justify-content: flex-end;
 }
@@ -132,16 +136,17 @@ button:hover {
   margin-bottom: 10px;
   padding: 15px;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   border-radius: 10px;
-  background: rgb(240, 243, 243);
+  background-color: rgb(77, 146, 86); /* Green */
+  color: white;
   border: 1px solid #acb5b5;
   box-shadow: 0 1px 2px 0 #acb5b5;
 }
 
 #summaryBtn:hover {
-  background-color: rgb(77, 146, 86); /* Green */
-  color: white;
+  background-color: white; /* white */
+  color: black;
 }
 
 .mid-buttons {
@@ -191,10 +196,9 @@ button:hover {
 
 /* The Close Button */
 .close {
-  color: #aaa;
+  color: rgb(51, 54, 53);
   float: right;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 48px;
 }
 
 .close:hover,
