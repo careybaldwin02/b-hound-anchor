@@ -44,18 +44,32 @@ a {
   justify-content: center;
 }
 
-.summary-section{
 
+.summary-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .dt{
   width: 32%;
-  padding: 20px;
+  padding: 20px 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
  }
+
+.gl{
+  padding-right: 5%; 
+  display: flex;
+  justify-content: flex-end;
+}
+
+.gl img{
+  padding: 10px;
+  height: 50px;
+}
 
 #fade-in {
   animation: fadeIn ease 4s;
