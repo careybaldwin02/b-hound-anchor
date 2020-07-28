@@ -235,6 +235,14 @@ button:hover {
   justify-content: space-around;
 }
 
+.privacy{
+  margin: 0 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .middle {
   border: 1px solid #acb5b5;
   display: flex;
