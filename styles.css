@@ -324,6 +324,17 @@ li {
 
 /* Slideshow Styles */
 
+.ss-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ss-top{
+  text-align: center;
+}
+
 .slideshow {
   display: flex;
   justify-content: center;
