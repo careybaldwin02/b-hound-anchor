@@ -197,11 +197,12 @@ button:hover {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 8% auto; /* 8% from the top and centered */
+  margin: 40px auto; /* 8% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
   border-radius: 10px;
   width: 60%; /* Could be more or less, depending on screen size */
+  overflow: scroll;
 }
 
 /* The Close Button */
